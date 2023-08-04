@@ -6,10 +6,17 @@ Welcome to the [WhatsApp Business API For Chatbot] repository! This project is d
 
 Getting Started
 Follow these simple steps to get the project up and running on your local machine.
+
 (1) You need ngrok with a domain (it's free) and hook the project with ngrok domain.
+
 I used this command ngrok http --domain=your-ngrok-domain https://localhost:44394 --host-header=localhost:44394
+
 (2) Add these values in web.config
-<add key="BaseUrl" value="https://graph.facebook.com/v17.0" />
-<add key="Token" value="API_Token" />
-<add key="PhoneNumberID" value="From_Meta_API_Setup" />
-<add key="WebHookVerificationToken" value="Can be set anything. Will be used when verifying the webhook on Meta API Setup" />
+
+key="BaseUrl" value="https://graph.facebook.com/v17.0"
+
+key="Token" value="API_Token"
+
+key="PhoneNumberID" value="From_Meta_API_Setup"
+
+key="WebHookVerificationToken" value="Can be set anything. Will be used when verifying the webhook on Meta API Setup"
